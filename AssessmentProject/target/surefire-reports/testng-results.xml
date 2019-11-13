@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="9" passed="9">
+  <reporter-output>
+  </reporter-output>
+  <suite name="assesmentScriptSuit" duration-ms="0" started-at="2019-11-13T13:17:18 IST" finished-at="2019-11-13T13:17:18 IST">
+    <groups>
+    </groups>
+  </suite> <!-- assesmentScriptSuit -->
+  <suite name="allScriptSuit" duration-ms="65784" started-at="2019-11-13T13:16:12 IST" finished-at="2019-11-13T13:17:18 IST">
+    <groups>
+    </groups>
+    <test name="heatClinicTest" duration-ms="31622" started-at="2019-11-13T13:16:12 IST" finished-at="2019-11-13T13:16:44 IST">
+      <class name="com.atmecs.qa.script.HeatClinicScript">
+        <test-method status="PASS" signature="configSetup(java.lang.String, java.lang.String)[pri:0, instance:com.atmecs.qa.script.HeatClinicScript@67205a84]" name="configSetup" is-config="true" duration-ms="12643" started-at="2019-11-13T13:16:12 IST" finished-at="2019-11-13T13:16:25 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://10.10.10.232:8080/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configSetup -->
+        <test-method status="PASS" signature="clickMenuVerify(java.lang.String)[pri:1, instance:com.atmecs.qa.script.HeatClinicScript@67205a84]" name="clickMenuVerify" duration-ms="905" started-at="2019-11-13T13:16:27 IST" data-provider="title" finished-at="2019-11-13T13:16:28 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Broadleaf Demo - Heat Clinic]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickMenuVerify -->
+        <test-method status="PASS" signature="clickMenuVerify(java.lang.String)[pri:1, instance:com.atmecs.qa.script.HeatClinicScript@67205a84]" name="clickMenuVerify" duration-ms="2122" started-at="2019-11-13T13:16:28 IST" data-provider="title" finished-at="2019-11-13T13:16:30 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Broadleaf Commerce Demo Store - Heat Clinic - Hot Sauces]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickMenuVerify -->
+        <test-method status="PASS" signature="clickMenuVerify(java.lang.String)[pri:1, instance:com.atmecs.qa.script.HeatClinicScript@67205a84]" name="clickMenuVerify" duration-ms="921" started-at="2019-11-13T13:16:30 IST" data-provider="title" finished-at="2019-11-13T13:16:31 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Broadleaf Commerce Demo Store - Heat Clinic - Merchandise]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickMenuVerify -->
+        <test-method status="PASS" signature="clickMenuVerify(java.lang.String)[pri:1, instance:com.atmecs.qa.script.HeatClinicScript@67205a84]" name="clickMenuVerify" duration-ms="990" started-at="2019-11-13T13:16:31 IST" data-provider="title" finished-at="2019-11-13T13:16:32 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Broadleaf Commerce Demo Store - Heat Clinic - Clearance]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickMenuVerify -->
+        <test-method status="PASS" signature="clickMenuVerify(java.lang.String)[pri:1, instance:com.atmecs.qa.script.HeatClinicScript@67205a84]" name="clickMenuVerify" duration-ms="809" started-at="2019-11-13T13:16:32 IST" data-provider="title" finished-at="2019-11-13T13:16:32 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Broadleaf Commerce Demo Store - Heat Clinic - New to Hot Sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickMenuVerify -->
+        <test-method status="PASS" signature="clickMenuVerify(java.lang.String)[pri:1, instance:com.atmecs.qa.script.HeatClinicScript@67205a84]" name="clickMenuVerify" duration-ms="729" started-at="2019-11-13T13:16:32 IST" data-provider="title" finished-at="2019-11-13T13:16:33 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Broadleaf Commerce Demo Store - Heat Clinic - FAQ]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickMenuVerify -->
+        <test-method status="PASS" signature="clickMerchantVerifyProduct(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:com.atmecs.qa.script.HeatClinicScript@67205a84]" name="clickMerchantVerifyProduct" duration-ms="9691" started-at="2019-11-13T13:16:33 IST" data-provider="product" finished-at="2019-11-13T13:16:43 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Viewing Mens (1 - 3 of 3)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[mohit]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Hawt Like a Habanero Shirt (Men's)]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Shirt Size: M]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Personalized Name: mohit]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Shirt Color: Red]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[$14.99]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[$14.99]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[$29.98]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickMerchantVerifyProduct -->
+        <test-method status="PASS" signature="endReport()[pri:0, instance:com.atmecs.qa.script.HeatClinicScript@67205a84]" name="endReport" is-config="true" duration-ms="798" started-at="2019-11-13T13:16:43 IST" finished-at="2019-11-13T13:16:44 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endReport -->
+      </class> <!-- com.atmecs.qa.script.HeatClinicScript -->
+    </test> <!-- heatClinicTest -->
+    <test name="tutorialNinjaTest" duration-ms="65784" started-at="2019-11-13T13:16:12 IST" finished-at="2019-11-13T13:17:18 IST">
+      <class name="com.atmecs.qa.script.TutorialsNinjaScript">
+        <test-method status="PASS" signature="configSetup(java.lang.String, java.lang.String)[pri:0, instance:com.atmecs.qa.script.TutorialsNinjaScript@627551fb]" name="configSetup" is-config="true" duration-ms="23788" started-at="2019-11-13T13:16:12 IST" finished-at="2019-11-13T13:16:36 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://tutorialsninja.com/demo/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configSetup -->
+        <test-method status="PASS" signature="validateHomePage()[pri:1, instance:com.atmecs.qa.script.TutorialsNinjaScript@627551fb]" name="validateHomePage" duration-ms="15" started-at="2019-11-13T13:16:36 IST" finished-at="2019-11-13T13:16:36 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateHomePage -->
+        <test-method status="PASS" signature="searchItemMethod(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:com.atmecs.qa.script.TutorialsNinjaScript@627551fb]" name="searchItemMethod" duration-ms="39208" started-at="2019-11-13T13:16:36 IST" data-provider="homePage" finished-at="2019-11-13T13:17:15 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[macbook]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[iphone]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[television]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchItemMethod -->
+        <test-method status="PASS" signature="endReport()[pri:0, instance:com.atmecs.qa.script.TutorialsNinjaScript@627551fb]" name="endReport" is-config="true" duration-ms="2691" started-at="2019-11-13T13:17:15 IST" finished-at="2019-11-13T13:17:18 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endReport -->
+      </class> <!-- com.atmecs.qa.script.TutorialsNinjaScript -->
+    </test> <!-- tutorialNinjaTest -->
+  </suite> <!-- allScriptSuit -->
+</testng-results>

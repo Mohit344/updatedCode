@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [heatClinicScript]" parallel="tests">
+  <test thread-count="5" name="heatClinicTest(failed)" parallel="tests">
+    <parameter name="webdrivername" value="ie"/>
+    <parameter name="url" value="http://10.10.10.232:8080/"/>
+    <classes>
+      <class name="com.atmecs.qa.script.HeatClinicScript">
+        <methods>
+          <include name="endReport"/>
+          <include name="clickMerchantVerifyProduct" invocation-numbers="0"/>
+          <include name="clickMenuVerify" invocation-numbers="2 3 4 5"/>
+          <include name="configSetup"/>
+        </methods>
+      </class> <!-- com.atmecs.qa.script.HeatClinicScript -->
+    </classes>
+  </test> <!-- heatClinicTest(failed) -->
+</suite> <!-- Failed suite [heatClinicScript] -->

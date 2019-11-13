@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="assesmentScriptSuit" duration-ms="0" started-at="2019-11-13T15:02:59 IST" finished-at="2019-11-13T15:02:59 IST">
+    <groups>
+    </groups>
+  </suite> <!-- assesmentScriptSuit -->
+  <suite name="allScriptSuit" duration-ms="60029" started-at="2019-11-13T15:01:58 IST" finished-at="2019-11-13T15:02:59 IST">
+    <groups>
+    </groups>
+    <test name="tutorialNinjaTest" duration-ms="60029" started-at="2019-11-13T15:01:58 IST" finished-at="2019-11-13T15:02:59 IST">
+      <class name="com.atmecs.qa.script.TutorialsNinjaScript">
+        <test-method status="PASS" signature="configSetup(java.lang.String, java.lang.String)[pri:0, instance:com.atmecs.qa.script.TutorialsNinjaScript@60285225]" name="configSetup" is-config="true" duration-ms="5111" started-at="2019-11-13T15:01:58 IST" finished-at="2019-11-13T15:02:04 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ie]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://tutorialsninja.com/demo/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configSetup -->
+        <test-method status="PASS" signature="validateHomePage()[pri:1, instance:com.atmecs.qa.script.TutorialsNinjaScript@60285225]" name="validateHomePage" duration-ms="153" started-at="2019-11-13T15:02:04 IST" finished-at="2019-11-13T15:02:04 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateHomePage -->
+        <test-method status="PASS" signature="searchItemMethod(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:com.atmecs.qa.script.TutorialsNinjaScript@60285225]" name="searchItemMethod" duration-ms="53734" started-at="2019-11-13T15:02:04 IST" data-provider="homePage" finished-at="2019-11-13T15:02:58 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[macbook]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[iphone]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[television]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchItemMethod -->
+        <test-method status="PASS" signature="endReport()[pri:0, instance:com.atmecs.qa.script.TutorialsNinjaScript@60285225]" name="endReport" is-config="true" duration-ms="552" started-at="2019-11-13T15:02:58 IST" finished-at="2019-11-13T15:02:59 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endReport -->
+      </class> <!-- com.atmecs.qa.script.TutorialsNinjaScript -->
+    </test> <!-- tutorialNinjaTest -->
+  </suite> <!-- allScriptSuit -->
+</testng-results>
